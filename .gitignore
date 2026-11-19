@@ -1,0 +1,14 @@
+# Large raw scans (keep locally, web uses optimized WebP in /images/)
+ASD.jpg
+BBA.jpg
+flower pot.jpg
+INTA POST 2 RESIZE.jpg
+JeP CONSULTANTS F.png
+jep poster 2.png
+pikachu.png
+POSTER 3 B.jpg
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log

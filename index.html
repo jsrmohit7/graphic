@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mona Rani — Graphic Designer & Visual Artist</title>
+  <meta name="description" content="Portfolio of Mona Rani — Graphic Designer specializing in brand identity, typography, visual presentations, and digital art.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Sticky Navigation Bar -->
+  <nav class="top-nav" id="top-nav">
+    <div class="nav-left">
+      <a href="#home" class="brand-link" id="brand-link">
+        <span class="text-top">Mona Rani</span>
+        <span class="text-bottom">Mona Rani</span>
+      </a>
+      <span class="brand-role">Graphic Designer</span>
+    </div>
+
+    <!-- Nav View Links (shown when scrolled or on subpages) -->
+    <div class="nav-links" id="nav-links">
+      <button class="nav-pill-btn" data-view="home" data-view-target="home">Home</button>
+      <button class="nav-pill-btn" data-view="about" data-view-target="about">About</button>
+      <button class="nav-pill-btn" data-view="portfolio" data-view-target="portfolio">Portfolio</button>
+      <button class="nav-pill-btn" data-view="contact" data-view-target="contact">Contact</button>
+    </div>
+
+    <div class="nav-right">
+      <div class="location-clock">
+        <span class="status-dot"></span>
+        <span>Ranchi • <span id="ranchi-time">--:-- --</span></span>
+      </div>
+
+      <!-- Theme Switcher Pill -->
+      <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+        <div class="theme-dot">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </div>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main View Container (Single Page Application with Instant Subpage Transitions) -->
+  <main class="main-view-container">
+
+    <!-- ====================================================================
+         VIEW: HOME (Exact Vexoo Master Hero)
+         ==================================================================== -->
+    <section id="view-home" class="view-section active">
+      <!-- Center Dynamic Typography Display -->
+      <div class="hero-center-typography">
+        <h1 class="hero-big-title" id="hero-big-title">MONA RANI</h1>
+      </div>
+
+      <!-- Interactive Navigation Cards Grid -->
+      <div class="hero-nav-grid">
+        <!-- 1. About Card -->
+        <div class="hero-nav-card" data-view-target="about" data-title-preview="ABOUT">
+          <div class="card-text-wrapper">
+            <span class="card-text-default">About</span>
+            <span class="card-text-hover">About</span>
+          </div>
+          <div class="card-arrow-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </div>
+
+        <!-- 2. Portfolio Card -->
+        <div class="hero-nav-card" data-view-target="portfolio" data-title-preview="PORTFOLIO">
+          <div class="card-text-wrapper">
+            <span class="card-text-default">Portfolio</span>
+            <span class="card-text-hover">Portfolio</span>
+          </div>
+          <div class="card-arrow-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </div>
+
+        <!-- 3. Contact Card -->
+        <div class="hero-nav-card" data-view-target="contact" data-title-preview="CONTACT">
+          <div class="card-text-wrapper">
+            <span class="card-text-default">Contact</span>
+            <span class="card-text-hover">Contact</span>
+          </div>
+          <div class="card-arrow-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </div>
+
+        <!-- 4. Stack Ticker Card -->
+        <div class="hero-stack-card" data-title-preview="STACK">
+          <div class="stack-avatar-pill">
+            <span>Hey</span>
+            <span class="stack-avatar-wave">👋</span>
+          </div>
+          <div class="stack-ticker-container">
+            <div class="stack-ticker-track">
+              <!-- First copy -->
+              <div class="software-badge badge-ps" title="Adobe Photoshop">Ps</div>
+              <div class="software-badge badge-ai" title="Adobe Illustrator">Ai</div>
+              <div class="software-badge badge-cd" title="CorelDRAW">Cd</div>
+              <div class="software-badge badge-ae" title="Adobe After Effects">Ae</div>
+              <div class="software-badge badge-fg" title="Figma">Fg</div>
+              <div class="software-badge badge-id" title="Adobe InDesign">Id</div>
+              <!-- Duplicate copy for seamless infinite loop -->
+              <div class="software-badge badge-ps" title="Adobe Photoshop">Ps</div>
+              <div class="software-badge badge-ai" title="Adobe Illustrator">Ai</div>
+              <div class="software-badge badge-cd" title="CorelDRAW">Cd</div>
+              <div class="software-badge badge-ae" title="Adobe After Effects">Ae</div>
+              <div class="software-badge badge-fg" title="Figma">Fg</div>
+              <div class="software-badge badge-id" title="Adobe InDesign">Id</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Resume Card -->
+        <a href="Mona_Rani_Resume.pdf" target="_blank" class="hero-nav-card" data-title-preview="RESUME">
+          <div class="card-text-wrapper">
+            <span class="card-text-default">Resume</span>
+            <span class="card-text-hover">Resume</span>
+          </div>
+          <div class="card-arrow-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW: ABOUT (Editorial Bio, Testimonials, Experience, Education)
+         ==================================================================== -->
+    <section id="view-about" class="view-section">
+      <!-- Section Header -->
+      <div class="about-editorial-header">
+        <h2 class="section-tag-spaced">A B O U T</h2>
+        <p class="about-bio-statement">
+          I'm Mona Rani — a graphic designer who believes the best work lives at the intersection of <span class="highlight">clarity and craft</span>. I specialize in visual identity, digital compositions, branding systems, and promotional designs that feel considered from every angle — layout, typography, colour balance, and the small details most people scroll past without noticing.
+        </p>
+      </div>
+
+      <!-- Testimonials / Client & Team Feedback (Bento Grid) -->
+      <div class="testimonials-section">
+        <div class="section-label">Collaborations & Client Praise</div>
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">❛❛</div>
+            <p class="testimonial-quote">
+              Mona has this rare ability to translate architectural and technical briefs into visually striking graphic communications. Her precision with typography, layout balance, and brand consistency always exceeded our expectations.
+            </p>
+            <div class="testimonial-author-box">
+              <div class="author-avatar-initials">JP</div>
+              <div>
+                <div class="author-name">JEP Consultants Leadership</div>
+                <div class="author-company">Architecture & Civil Engineering, Ranchi</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">❛❛</div>
+            <p class="testimonial-quote">
+              Working with Mona for our festival branding and food-court campaigns was exceptional. She created vibrant, high-energy designs that stood out effortlessly across digital social feeds and wide-format hoardings.
+            </p>
+            <div class="testimonial-author-box">
+              <div class="author-avatar-initials">WW</div>
+              <div>
+                <div class="author-name">Waffle World Team</div>
+                <div class="author-company">Nucleus Mall & BITOTSAV Festival, Ranchi</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">❛❛</div>
+            <p class="testimonial-quote">
+              Mona is one of those designers who brings genuine craft and thoughtfulness to every brief. Her aesthetic sensibility, adaptability across tools, and commitment to visual storytelling make every collaboration a success.
+            </p>
+            <div class="testimonial-author-box">
+              <div class="author-avatar-initials">MS</div>
+              <div>
+                <div class="author-name">Creative Studio Lead</div>
+                <div class="author-company">Visual Communication Collective</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Timeline -->
+      <div class="experience-section">
+        <div class="section-label">Professional Experience</div>
+        <div class="timeline-list">
+          <!-- Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-year">2023 – Present</div>
+            <div>
+              <div class="timeline-role-company">
+                <span class="timeline-role">Graphic Designer & Visual Communications Lead</span>
+                <span class="timeline-company">@ JEP Consultants, Ranchi</span>
+              </div>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Created creative graphic designs and professional visual communication materials based on project requirements.</li>
+                  <li>Applied principles of colour coordination, composition, typography, and visual hierarchy across diverse marketing assets.</li>
+                  <li>Designed high-impact architectural service posters, 2D plan consultation collaterals, and digital presentations.</li>
+                  <li>Translated design briefs into practical branding solutions that enhanced client engagement and brand recognition.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-year">2022 – 2023</div>
+            <div>
+              <div class="timeline-role-company">
+                <span class="timeline-role">Creative Branding & Campaign Designer</span>
+                <span class="timeline-company">@ Festival & Commercial Collaborations</span>
+              </div>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Spearheaded comprehensive promotional campaigns for food brand Waffle World and BITOTSAV '23 festival at BIT Mesra.</li>
+                  <li>Engineered large-scale outdoor canopy banners, hoardings, food court menus, and social promotional media.</li>
+                  <li>Maintained brand identity standards across high-volume digital and physical print deliverables.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-year">2021 – 2022</div>
+            <div>
+              <div class="timeline-role-company">
+                <span class="timeline-role">Digital Illustrator & Graphic Artist</span>
+                <span class="timeline-company">@ Independent Creative Practice</span>
+              </div>
+              <div class="timeline-desc">
+                <ul>
+                  <li>Focused on vector character artwork, stylized digital paintings, botanical floral studies, and typography exploration.</li>
+                  <li>Executed fine digital art compositions demonstrating nuanced lighting, colour theory, and digital texture refinement.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education Section -->
+      <div class="education-section">
+        <div class="section-label">Academic Background</div>
+        <div class="education-grid">
+          <div class="education-card">
+            <div class="education-degree">Masters in Multimedia Animation</div>
+            <div class="education-school">BIT Mesra (Jaipur Campus, Rajasthan)</div>
+            <span class="education-badge">Post Graduate Degree</span>
+          </div>
+          <div class="education-card">
+            <div class="education-degree">Degree in Multimedia Animation</div>
+            <div class="education-school">St. Xavier’s College, Ranchi</div>
+            <span class="education-badge">Graduation</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Infinite Skills Marquee Ticker -->
+      <div class="skills-ticker-wrapper">
+        <div class="skills-ticker-track">
+          <span class="skills-ticker-item">Brand Identity & Logos</span>
+          <span class="skills-ticker-item">Typography & Layout</span>
+          <span class="skills-ticker-item">Poster & Print Design</span>
+          <span class="skills-ticker-item">Social Media Marketing</span>
+          <span class="skills-ticker-item">Vector Illustration</span>
+          <span class="skills-ticker-item">Visual Presentations</span>
+          <span class="skills-ticker-item">Digital Artwork</span>
+          <span class="skills-ticker-item">Colour Coordination</span>
+          <!-- Duplicate for loop -->
+          <span class="skills-ticker-item">Brand Identity & Logos</span>
+          <span class="skills-ticker-item">Typography & Layout</span>
+          <span class="skills-ticker-item">Poster & Print Design</span>
+          <span class="skills-ticker-item">Social Media Marketing</span>
+          <span class="skills-ticker-item">Vector Illustration</span>
+          <span class="skills-ticker-item">Visual Presentations</span>
+          <span class="skills-ticker-item">Digital Artwork</span>
+          <span class="skills-ticker-item">Colour Coordination</span>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="footer-left">
+          <div class="footer-link-group">
+            <span class="link-title">Direct Email</span>
+            <a href="mailto:ranimonaa2000@gmail.com">ranimonaa2000@gmail.com</a>
+          </div>
+          <div class="footer-link-group">
+            <span class="link-title">Phone</span>
+            <a href="tel:+916200223697">+91 6200223697</a>
+          </div>
+          <div class="footer-link-group">
+            <span class="link-title">Location</span>
+            <span>Ranchi, Jharkhand</span>
+          </div>
+        </div>
+        <div class="footer-social-links">
+          <a href="Mona_Rani_Resume.pdf" target="_blank" class="footer-social-pill">Resume (PDF)</a>
+          <button class="footer-social-pill" data-view-target="contact">Start a Project</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ====================================================================
+         VIEW: PORTFOLIO (Selected Works & Lightbox Modal)
+         ==================================================================== -->
+    <section id="view-portfolio" class="view-section">
+      <div class="portfolio-header">
+        <h2 class="portfolio-headline">
+          Dive into a few projects that represent my most fulfilling design experiences
+        </h2>
+
+        <!-- Category Filters -->
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">All Works</button>
+          <button class="filter-btn" data-filter="branding">Branding & Identity</button>
+          <button class="filter-btn" data-filter="poster">Posters & Print</button>
+          <button class="filter-btn" data-filter="social">Social Media</button>
+          <button class="filter-btn" data-filter="illustration">Illustration & Art</button>
+        </div>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div class="portfolio-grid">
+
+        <!-- Project 1: JeP Consultants Brand Mark -->
+        <article class="project-card" data-category="branding"
+                 data-modal-img="images/jep_consultants_f.webp"
+                 data-modal-title="JeP Consultants Brand Identity"
+                 data-modal-category="Branding & Corporate Identity"
+                 data-modal-desc="Official corporate identity and architectural monogram designed for JeP Consultants (Architecture & Civil Consultants, Ranchi). The design combines 3D perspective architectural forms with an interlocking 'C' structural monogram, symbolizing structural strength, precision, and forward-looking engineering excellence."
+                 data-modal-tools="Adobe Illustrator, CorelDRAW, Adobe Photoshop">
+          <div class="project-image-box">
+            <span class="project-meta-pill">Brand Identity</span>
+            <img src="images/jep_consultants_f.webp" alt="JeP Consultants Brand Identity" loading="lazy">
+          </div>
+          <div class="project-info-bar">
+            <div>
+              <h3 class="project-title">JeP Consultants Brand Mark</h3>
+              <p class="project-category">Corporate Identity & Monogram</p>
+            </div>
+            <div class="project-arrow-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Civil & Architectural Services Poster -->
+        <article class="project-card" data-category="poster"
+                 data-modal-img="images/jep_poster_2.webp"
+                 data-modal-title="Architecture & Civil Services Poster"
+                 data-modal-category="Posters & Print Collateral"
+                 data-modal-desc="Commercial promotional poster created for JeP Consultants. Combines an ultra-modern 3D residential building elevation with structured service hierarchy (2D/3D Building Plans, 3D Elevation & Interior, Site Supervision, VR Walkthroughs), clear contact badges, and multi-platform QR code scan integration for instant WhatsApp & social discovery."
+                 data-modal-tools="Adobe Photoshop, CorelDRAW, Typography System">
+          <div class="project-image-box">
+            <span class="project-meta-pill">Poster & Print</span>
+            <img src="images/jep_poster_2.webp" alt="JeP Consultants Services Poster" loading="lazy">
+          </div>
+          <div class="project-info-bar">
+            <div>
+              <h3 class="project-title">Architectural Services Campaign</h3>
+              <p class="project-category">Print & Service Poster Design</p>
+            </div>
+            <div class="project-arrow-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Social Media Campaign -->
+        <article class="project-card" data-category="social"
+                 data-modal-img="images/inta_post_2_resize.webp"
+                 data-modal-title="See Your Dream Before It's Built"
+                 data-modal-category="Social Media Campaign & Marketing"
+                 data-modal-desc="High-conversion Instagram social marketing post tailored for luxury residential buyers and homeowners. Features clean modular layout showcasing exterior 3D visualization, kitchen interior space planning, architectural lighting details, and client-centric custom finishes with balanced geometric typography."
+                 data-modal-tools="Adobe Photoshop, Adobe Illustrator, Social Media Grid">
+          <div class="project-image-box">
+            <span class="project-meta-pill">Social Media</span>
+            <img src="images/inta_post_2_resize.webp" alt="Instagram Campaign Creative" loading="lazy">
+          </div>
+          <div class="project-info-bar">
+            <div>
+              <h3 class="project-title">3D Visualization Campaign</h3>
+              <p class="project-category">Instagram Grid & Digital Marketing</p>
+            </div>
+            <div class="project-arrow-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Waffle World x BITOTSAV '23 -->
+        <article class="project-card" data-category="branding poster"
+                 data-modal-img="images/asd.webp"
+                 data-modal-title="Waffle World Festival Brand Campaign"
+                 data-modal-category="Festival Branding & Multi-Panel Poster"
+                 data-modal-desc="Comprehensive festival promotional campaign designed for Waffle World at BIT Mesra's premier national cultural fest, BITOTSAV '23. Features radiant golden brand colour palettes, high-appetite food photography hierarchy, dual brand lockups, festival emblem styling, and complete retail outlet contact callouts."
+                 data-modal-tools="Adobe Photoshop, CorelDRAW, Colour Grading">
+          <div class="project-image-box">
+            <span class="project-meta-pill">Festival Campaign</span>
+            <img src="images/asd.webp" alt="Waffle World Festival Campaign" loading="lazy">
+          </div>
+          <div class="project-info-bar">
+            <div>
+              <h3 class="project-title">Waffle World x BITOTSAV '23</h3>
+              <p class="project-category">Festival Branding & Food Campaign</p>
+            </div>
+            <div class="project-arrow-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Waffle World Outdoor Hoarding -->
+        <article class="project-card" data-category="poster branding"
+                 data-modal-img="images/bba.webp"
+                 data-modal-title="Waffle World Outdoor Canopy Hoarding"
+                 data-modal-category="Outdoor Large-Scale Hoarding & Canopy"
+                 data-modal-desc="Wide-format outdoor canopy hoarding banner designed for festival food pavilions. Utilizes bold contrast typography, official BITOTSAV festival monuments, synchronized brand emblems, and food safety veg badges engineered for long-distance legibility."
+                 data-modal-tools="CorelDRAW, Large-Format Print Standards, Adobe Photoshop">
+          <div class="project-image-box">
+            <span class="project-meta-pill">Outdoor Print</span>
+            <img src="images/bba.webp" alt="Outdoor Canopy Hoarding Banner" loading="lazy">
+          </div>
+          <div class="project-info-bar">
+            <div>
+              <h3 class="project-title">Food Pavilion Canopy Hoarding</h3>
+              <p class="project-category">Large-Scale Outdoor Print</p>
+            </div>
+            <div class="project-arrow-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6: Build Smart, Live Better -->
+        <article class="project-card" data-category="poster"
+                 data-modal-img="images/poster_3_b.webp"
+                 data-modal-title="Build Smart, Live Better Consultation Poster"
+                 data-modal-category="Technical & Architectural Print Design"
+                 data-modal-desc="Architectural consultation promotional poster designed for JEP Consultants. Combines dual-tone blueprint CAD grid overlays with a professional engineer portrait cutout, detailing 2D building plan design, accurate room layout, proper space utilization, and Vastu-friendly design principles."
+                 data-modal-tools="Adobe Photoshop, CorelDRAW, CAD Blueprint Vector">
+          <div class="project-image-box">
+            <span class="project-meta-pill">Consultation Poster</span>
+            <img src="images/poster_3_b.webp" alt="Build Smart Live Better Poster" loading="lazy">
+          </div>
+          <div class="project-info-bar">
+            <div>
+              <h3 class="project-title">Build Smart, Live Better</h3>
+              <p class="project-category">2D Plan Consultation Poster</p>
+            </div>
+            <div class="project-arrow-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 7: Pastel Botanical Painting -->
+        <article class="project-card" data-category="illustration"
+                 data-modal-img="images/flower_pot.webp"
+                 data-modal-title="Pastel Botanical Floral Symphony"
+                 data-modal-category="Digital Painting & Fine Art"
+                 data-modal-desc="Minimalist digital artwork capturing delicate salmon-pink tulips nestled in a soft blush vase. Created as an exploration of atmospheric color gradients, subtle shadow rendering, and calm aesthetic balance in digital visual communication."
+                 data-modal-tools="Adobe Photoshop, Digital Brushwork, Color Theory">
+          <div class="project-image-box">
+            <span class="project-meta-pill">Digital Art</span>
+            <img src="images/flower_pot.webp" alt="Pastel Botanical Digital Painting" loading="lazy">
+          </div>
+          <div class="project-info-bar">
+            <div>
+              <h3 class="project-title">Pastel Botanical Symphony</h3>
+              <p class="project-category">Minimalist Floral Painting</p>
+            </div>
+            <div class="project-arrow-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 8: Character Illustration -->
+        <article class="project-card" data-category="illustration"
+                 data-modal-img="images/pikachu.webp"
+                 data-modal-title="Electric Spark Character Art"
+                 data-modal-category="Character Art & Vector Design"
+                 data-modal-desc="Expressive character digital illustration exploring playful personality, soft edge shading, electric yellow hues, and warm character proportions. Demonstrates versatile illustrative capability across multimedia animation pipelines."
+                 data-modal-tools="Adobe Illustrator, Photoshop, Character Shading">
+          <div class="project-image-box">
+            <span class="project-meta-pill">Character Art</span>
+            <img src="images/pikachu.webp" alt="Character Illustration" loading="lazy">
+          </div>
+          <div class="project-info-bar">
+            <div>
+              <h3 class="project-title">Electric Spark Character Art</h3>
+              <p class="project-category">Vector Character & Illustration</p>
+            </div>
+            <div class="project-arrow-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="footer-left">
+          <div class="footer-link-group">
+            <span class="link-title">Direct Email</span>
+            <a href="mailto:ranimonaa2000@gmail.com">ranimonaa2000@gmail.com</a>
+          </div>
+          <div class="footer-link-group">
+            <span class="link-title">Phone</span>
+            <a href="tel:+916200223697">+91 6200223697</a>
+          </div>
+        </div>
+        <div class="footer-social-links">
+          <button class="footer-social-pill" data-view-target="contact">Start a Project</button>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ====================================================================
+         VIEW: CONTACT (Interactive Form & Direct Details)
+         ==================================================================== -->
+    <section id="view-contact" class="view-section">
+      <div class="contact-header">
+        <h2 class="contact-headline">
+          If you prefer not to fill out forms, feel free to email me directly and let's talk about the next big thing!
+        </h2>
+      </div>
+
+      <div class="contact-grid-layout">
+        <!-- Direct Info Side -->
+        <div class="contact-direct-info">
+          <div class="contact-info-card">
+            <div class="info-label">Direct Email</div>
+            <a href="mailto:ranimonaa2000@gmail.com" class="info-value">ranimonaa2000@gmail.com</a>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="info-label">Direct Phone / WhatsApp</div>
+            <a href="tel:+916200223697" class="info-value">+91 6200223697</a>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="info-label">Current Base</div>
+            <div class="info-value">Ranchi, Jharkhand, India</div>
+          </div>
+
+          <div class="availability-badge-box">
+            <span class="status-dot"></span>
+            <span>Available for new graphic design projects & creative roles</span>
+          </div>
+        </div>
+
+        <!-- Interactive Form Side -->
+        <div class="contact-form-box">
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Full Name</label>
+              <input type="text" id="contact-name" class="form-input" placeholder="Your name or company..." required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Email Address</label>
+              <input type="email" id="contact-email" class="form-input" placeholder="name@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">What's Your Project About?</label>
+              <div class="pill-options-group" id="project-types-group">
+                <span class="choice-pill">Brand Identity & Logo</span>
+                <span class="choice-pill">Social Media Campaigns</span>
+                <span class="choice-pill">Poster & Print Design</span>
+                <span class="choice-pill">Digital Illustration</span>
+                <span class="choice-pill">Visual Presentation</span>
+                <span class="choice-pill">Full-Time / Freelance Role</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Project Budget (INR)</label>
+              <div class="pill-options-group" id="budget-types-group">
+                <span class="choice-pill">₹10k – ₹25k</span>
+                <span class="choice-pill">₹25k – ₹50k</span>
+                <span class="choice-pill">₹50k – ₹100k</span>
+                <span class="choice-pill">&gt; ₹100k</span>
+                <span class="choice-pill">Flexible / Discussion</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-details" class="form-label">Share More Details</label>
+              <textarea id="contact-details" class="form-textarea" placeholder="Tell me about your goals, timelines, or vision..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <span>Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="footer-left">
+          <div class="footer-link-group">
+            <span class="link-title">Direct Email</span>
+            <a href="mailto:ranimonaa2000@gmail.com">ranimonaa2000@gmail.com</a>
+          </div>
+          <div class="footer-link-group">
+            <span class="link-title">Phone</span>
+            <a href="tel:+916200223697">+91 6200223697</a>
+          </div>
+        </div>
+        <div class="footer-social-links">
+          <a href="Mona_Rani_Resume.pdf" target="_blank" class="footer-social-pill">Download Resume (PDF)</a>
+          <button class="footer-social-pill" data-view-target="portfolio">View Portfolio</button>
+        </div>
+      </footer>
+    </section>
+
+  </main>
+
+  <!-- Lightbox / Project Detail Modal -->
+  <div class="project-modal" id="project-modal" role="dialog" aria-modal="true">
+    <div class="modal-content-card">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-image-side">
+        <img id="modal-img" src="" alt="Project detail preview">
+      </div>
+      <div class="modal-info-side">
+        <div>
+          <span class="modal-category-tag" id="modal-category">Category</span>
+          <h2 class="modal-project-title" id="modal-title">Project Title</h2>
+          <p class="modal-project-desc" id="modal-desc">Detailed explanation of the project context and design solution.</p>
+        </div>
+        <div>
+          <div class="info-label">Tools & Techniques Used</div>
+          <div class="modal-tools-list" id="modal-tools"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toast-notice">Message sent successfully!</div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
