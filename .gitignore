@@ -1,4 +1,4 @@
-# Large raw scans (keep locally, web uses optimized WebP in /images/)
+# Large raw scans & source directories (keep locally, web uses optimized WebP in /images/)
 ASD.jpg
 BBA.jpg
 flower pot.jpg
@@ -7,6 +7,7 @@ JeP CONSULTANTS F.png
 jep poster 2.png
 pikachu.png
 POSTER 3 B.jpg
+images/Digital painting/
 
 # OS & Logs
 .DS_Store
